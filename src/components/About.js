@@ -17,8 +17,8 @@ const About = () => {
                 <h5 className="mb-0">B.Tech</h5>
               </div>
               <div className="card-body">
+                <p className="card-text">Galgotias University, Greater Noida (UP)</p>
                 <p className="card-text">Branch: Computer Science</p>
-                <p className="card-text">Galgotias University</p>
                 <p className="card-text">CGPA: 8.39</p>
                 <p className="card-text">Passing Year: 2024</p>
               </div>
@@ -51,11 +51,24 @@ const About = () => {
             </div>
           </div>
         </div>
+        {/* Resume Download Link */}
+        <div className="mt-5">
+          <a
+            href="Gitanshu Chauhan RESUME.pdf"
+            className="btn btn-outline-dark btn-lg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download My Resume
+          </a>
+        </div>
       </div>
     </section>
   );
 };
 
 export default About;
+
+
 
 
